@@ -1,26 +1,37 @@
-# Obake License
+# Obake Character License
 
 「かどか（Kadoka）」と「まる（maru）」のおばけ素材を公開するリポジトリです。
 
-## ライセンス
+## できること
 
-素材の利用条件は [Obake Character License v1.0](LICENSE.md) をご確認ください。
+[Obake Character License v1.1](LICENSE.md) の条件に従う限り、商用・非商用を問わず、素材を使えます。
 
-- 商用・非商用を問わず利用できます。
-- 改変、二次創作、ゲームや製品への利用、再配布ができます。
-- おばけそのものの利用権を独占したり、公式と誤認させたりする利用はできません。
+- 改変、二次創作、再配布
+- ゲーム、アプリ、Webサイト、動画、配信、書籍、印刷物への利用
+- 製品・グッズへの利用、およびそれらを含む有料作品・製品の販売
 
-詳細および条件の全文は、必ず [ライセンス本文](LICENSE.md) を参照してください。
+公式素材をそのまま素材集として再販売したり、公式と誤認させたり、おばけそのものの独占権を主張したりすることはできません。詳しい利用条件は、必ず [ライセンス本文](LICENSE.md) を確認してください。
 
 ## 素材
 
-公開素材は [assets](Assets) にあります。
+素材は [Assets](Assets) にあります。
 
-- `Kadoka.png` / `Kadoka.ink` — かどか
-- `Maru.png` / `Maru.ink` — まる
+| キャラクター | 公開ファイル |
+| --- | --- |
+| かどか（Kadoka） | `Kadoka.png`、`Kadoka_original.png`、`Kadoka.ink` |
+| まる（maru） | `Maru.png`、`Maru_original.png`、`Maru.ink` |
 
-`*_original.png` は原本画像、`.ink` は Inkscape の編集用データです。
+- `.png` は利用用の画像です。
+- `*_original.png` は原本画像です。
+- `.ink` は Inkscape で編集できる元データです。
 
-## リポジトリ
+## クレジットと再配布
 
-最新版は [tomiya7688/Obake_Lisense](https://github.com/tomiya7688/Obake_Lisense) で公開します。
+クレジット表記は必須ではありません。表記できる場合は、素材名またはこのリポジトリへのリンクを付けてください。
+
+素材や改変物を再配布する場合は、利用者が [ライセンス本文](LICENSE.md) を確認できるようにすることを推奨します。
+
+## リンク
+
+- [GitHub リポジトリ](https://github.com/tomiya7688/Obake_Lisense)
+- [Obake Character License v1.1](LICENSE.md)

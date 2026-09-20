@@ -29,12 +29,13 @@
 
 | キャラクター | 公開ファイル |
 | --- | --- |
-| かどか（Kadoka） | `Kadoka.png`、`Kadoka_original.png`、`Kadoka.ink`、`Kadoka.gif` |
-| まる（maru） | `Maru.png`、`Maru_original.png`、`Maru.ink`、`Maru.gif` |
+| かどか（Kadoka） | `Kadoka.png`、`Kadoka_original.png`、`Kadoka.ink`、`Kadoka.aseprite`、`Kadoka.gif` |
+| まる（maru） | `Maru.png`、`Maru_original.png`、`Maru.ink`、`Maru.aseprite`、`Maru.gif` |
 
 - `.png` は利用用の画像です。
 - `*_original.png` は原本画像です。
-- `.ink` は Inkscape で編集できる元データです。
+- `.ink` は Inktica 形式の編集用元データです。
+- `.aseprite` は Aseprite 形式の編集用元データです。
 - `.gif` はアニメーション画像です。
 
 ## クレジットと再配布

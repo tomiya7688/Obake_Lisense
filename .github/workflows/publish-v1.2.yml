@@ -1,0 +1,48 @@
+name: Publish Obake Character License v1.2
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/publish-v1.2.yml
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish v1.2 GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_SHA: a44e2c654354f414193873461fb7f4a094653f46
+        run: |
+          if gh release view v1.2 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release v1.2 already exists."
+            exit 0
+          fi
+
+          cat > /tmp/release-notes.md <<'EOF'
+          # Obake Character License v1.2
+
+          This release strengthens and clarifies the Obake Character License while keeping its permissive intent.
+
+          ## Main changes
+
+          - Explicitly permits use in closed-source and proprietary games, applications, products, and services.
+          - Clarifies that incorporating Obake does **not** require the overall work to become open source, open content, or use the same license.
+          - Allows creators to apply their own licenses and restrictions to their original code, artwork, music, stories, models, data, and other contributions.
+          - Clarifies that the anti-lock-in rule applies to **Kadoka and maru themselves**, not to an entire product that includes them.
+          - Clarifies rights in modified works and independently created contributions.
+          - Expands redistribution rules without introducing copyleft or ShareAlike requirements.
+          - Clarifies use of character names and prohibits false claims of official approval or affiliation.
+          - Explicitly permits adult, violent, graphic/cruel, and horror content, subject to applicable law and third-party rights.
+          - Strengthens warranty disclaimers, limitation of liability, and violation handling.
+          - Keeps the Japanese `LICENSE.md` as the canonical text; `LICENSE.en.md` is the English translation.
+
+          The versioning clause remains non-retroactive: materials lawfully obtained or used under an earlier license version are not automatically forced onto this version.
+          EOF
+
+          gh release create v1.2             --repo "$GITHUB_REPOSITORY"             --target "$TARGET_SHA"             --title "Obake Character License v1.2"             --notes-file /tmp/release-notes.md

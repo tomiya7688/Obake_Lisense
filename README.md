@@ -15,13 +15,16 @@
 
 ## できること
 
-[Obake Character License v1.1](LICENSE.md) の条件に従う限り、商用・非商用を問わず、素材を使えます。
+[Obake Character License v1.2](LICENSE.md) の条件に従う限り、商用・非商用を問わず、素材を使えます。
 
 - 改変、二次創作、再配布
 - ゲーム、アプリ、Webサイト、動画、配信、書籍、印刷物への利用
 - 製品・グッズへの利用、およびそれらを含む有料作品・製品の販売
+- クローズドソース／プロプライエタリなゲーム、アプリ、製品、サービスへの組み込み
 
-公式素材をそのまま素材集として再販売したり、公式と誤認させたり、おばけそのものの独占権を主張したりすることはできません。詳しい利用条件は、必ず [ライセンス本文](LICENSE.md) を確認してください。
+作品全体をオープンソースや同一ライセンスにする必要はありません。独自のソースコード、画像、音楽、シナリオ等には独自の利用条件を設定できます。
+
+一方で、公式素材をそのまま素材集として再販売したり、公式と誤認させたり、「かどか」「まる」そのものの独占権を主張したりすることはできません。詳しい利用条件は、必ず [ライセンス本文](LICENSE.md) を確認してください。
 
 ## 素材
 
@@ -47,6 +50,6 @@
 ## リンク
 
 - [GitHub リポジトリ](https://github.com/tomiya7688/Obake_Lisense)
-- [Obake Character License v1.1 — 日本語・正本](LICENSE.md)
-- [Obake Character License v1.1 — English translation](LICENSE.en.md)
+- [Obake Character License v1.2 — 日本語・正本](LICENSE.md)
+- [Obake Character License v1.2 — English translation](LICENSE.en.md)
 - [おばけの住処 — 公式世界設定](https://github.com/tomiya7688/chatgpt-obakenosumika)

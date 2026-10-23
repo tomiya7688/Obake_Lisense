@@ -41,6 +41,19 @@
 - `.aseprite` は Aseprite 形式の編集用元データです。
 - `.gif` はアニメーション画像です。
 
+## 公式素材の真正性
+
+公式素材には安定した asset ID と SHA-256 を割り当て、GitHub Actions で
+暗号署名付き Artifact Attestation を生成します。
+
+GitHub CLI がある場合、ローカルの素材を次のように検証できます。
+
+```bash
+gh attestation verify Assets/Kadoka.png --repo tomiya7688/Obake_Lisense
+```
+
+manifest、原本との対応、検証方法、C2PA の扱いは [PROVENANCE.md](PROVENANCE.md) を参照してください。
+
 ## クレジットと再配布
 
 クレジット表記は必須ではありません。表記できる場合は、素材名またはこのリポジトリへのリンクを付けてください。

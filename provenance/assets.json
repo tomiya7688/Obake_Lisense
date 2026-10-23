@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "asset_set": "obake-official-assets",
+  "creator": "tomiya7688",
+  "license": {
+    "name": "Obake Character License v1.2",
+    "canonical_url": "https://github.com/tomiya7688/Obake_Lisense/blob/main/LICENSE.md"
+  },
+  "assets": [
+    {
+      "id": "obake.kadoka.original",
+      "path": "Assets/Kadoka_original.png",
+      "role": "original",
+      "family": "kadoka"
+    },
+    {
+      "id": "obake.kadoka.png",
+      "path": "Assets/Kadoka.png",
+      "role": "distribution",
+      "family": "kadoka",
+      "source_asset_id": "obake.kadoka.original"
+    },
+    {
+      "id": "obake.kadoka.gif",
+      "path": "Assets/Kadoka.gif",
+      "role": "distribution-animation",
+      "family": "kadoka",
+      "source_asset_id": "obake.kadoka.original"
+    },
+    {
+      "id": "obake.kadoka.inktika",
+      "path": "Assets/Kadoka.ink",
+      "role": "editable-source",
+      "family": "kadoka",
+      "source_asset_id": "obake.kadoka.original"
+    },
+    {
+      "id": "obake.kadoka.aseprite",
+      "path": "Assets/Kadoka.aseprite",
+      "role": "editable-source",
+      "family": "kadoka",
+      "source_asset_id": "obake.kadoka.original"
+    },
+    {
+      "id": "obake.maru.original",
+      "path": "Assets/Maru_original.png",
+      "role": "original",
+      "family": "maru"
+    },
+    {
+      "id": "obake.maru.png",
+      "path": "Assets/Maru.png",
+      "role": "distribution",
+      "family": "maru",
+      "source_asset_id": "obake.maru.original"
+    },
+    {
+      "id": "obake.maru.gif",
+      "path": "Assets/Maru.gif",
+      "role": "distribution-animation",
+      "family": "maru",
+      "source_asset_id": "obake.maru.original"
+    },
+    {
+      "id": "obake.maru.inktika",
+      "path": "Assets/Maru.ink",
+      "role": "editable-source",
+      "family": "maru",
+      "source_asset_id": "obake.maru.original"
+    },
+    {
+      "id": "obake.maru.aseprite",
+      "path": "Assets/Maru.aseprite",
+      "role": "editable-source",
+      "family": "maru",
+      "source_asset_id": "obake.maru.original"
+    }
+  ]
+}
